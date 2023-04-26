@@ -5,8 +5,6 @@
 
 html {
 	box-sizing: border-box;
-	background-image: url(./images/background.gif);
-	background-size: cover;
 }
 *, *:before, *:after {
 	box-sizing: inherit;
@@ -14,7 +12,11 @@ html {
 	font-family: pc98;
 }
 body {
-	margin: 4px;
+	background-image: url(./images/background.gif);
+	background-size: cover;
+	margin: 0px;
+	padding-left: 4px;
+	padding-right: 4px;
 }
 header, ul {
 	display: flex;
@@ -28,6 +30,7 @@ header, ul {
 }
 a {
 	text-decoration: none;
+	color: white;
 }
 .logo {
 	filter: opacity(80%);
