@@ -120,7 +120,10 @@ section, footer {
 	max-width: 90vh;
 	margin: 32px auto;
 }
-.signup > button {
+.signup > a {
+	display: flex;
+}
+.signup button {
 	background-color: black;
 	padding: 16px;
 	flex-basis: 5em;
