@@ -117,6 +117,8 @@ section, footer {
 }
 .signup {
 	padding: 64px;
+	max-width: 90vh;
+	margin: 32px auto;
 }
 .signup > button {
 	background-color: black;
@@ -133,8 +135,7 @@ footer {
 	background-color: black;
 	border: none;
 }
-.top {
+.top, .quotebox {
 	border: none;
 	border-radius: 0;
-
 }
