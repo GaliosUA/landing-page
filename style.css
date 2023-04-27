@@ -14,9 +14,7 @@ html {
 body {
 	background-image: url(./images/background.gif);
 	background-size: cover;
-	margin: 0px;
-	padding-left: 4px;
-	padding-right: 4px;
+	margin: 0;
 }
 header, ul {
 	display: flex;
@@ -35,12 +33,13 @@ a {
 .logo {
 	filter: opacity(80%);
 }
-.top, .middle {
-	background-color: rgba(0, 0, 0, 90%);
+section, footer {
+	background-color: rgba(0, 0, 0, 80%);
+	border: 4px ridge rgb(120, 110, 129);
 	border-radius: 15px;
 	display: flex;
 	justify-content: center;
-	margin-top: 32px;
+	margin-top: 36px;
 	gap: 64px;
 }
 
@@ -73,7 +72,7 @@ a {
 	align-items: center;
 	justify-content: space-evenly;
 	gap: 12px;
-	min-height: 30em;
+	max-height: 40vh;
 }
 .middle-text {
 	font-size: 36px;
@@ -98,4 +97,44 @@ a {
 }
 .image-strip > div {
 	flex: 0 1 226px;
+}
+.quote {
+	display: flex;
+	flex-direction: column;
+	flex: 0 1 100vh;
+	justify-content: center;
+	padding: 36px;
+}
+.quote-text {
+	flex: 3;
+	font-size: 24px;
+	font-style: italic;
+}
+.quote-author {
+	flex: 1;
+	align-self: flex-end;
+	font-weight: bold;
+}
+.signup {
+	padding: 64px;
+}
+.signup > button {
+	background-color: black;
+	padding: 16px;
+	flex-basis: 5em;
+	align-self: center;
+	font-weight: bold;
+}
+footer {
+	align-items: center;
+	margin: 60px 0px 0px 0px;
+	border-radius: 0;
+	min-height: 6em;
+	background-color: black;
+	border: none;
+}
+.top {
+	border: none;
+	border-radius: 0;
+
 }
